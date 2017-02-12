@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This layout file does the following things:
+ - Selectors to show the International news feeds to follow
+ - National news feed to follow
+ - Sports news feed to follow
+ - Business news feed to follow
+ - Technology news feed to follow
+ - Education news feed to follow
+ - Health news feed to follow
+
+ UI Design:
+
+ ScrollView > Linear vertical layout > each selector
+ -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fivewheeler.training.newscomparator.NewsFeedSelector">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="International"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:background="#b7333591"
+                android:padding="10dp"/>
+
+
+            <com.fivewheeler.training.newscomparator.views.MultiSelectionSpinner
+                android:id="@+id/internationalNewsFeedSelector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="National"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:background="#b7333591"
+                android:padding="10dp"/>
+
+            <com.fivewheeler.training.newscomparator.views.MultiSelectionSpinner
+                android:id="@+id/nationalNewsFeedSelector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Education"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:background="#b7333591"
+                android:padding="10dp"/>
+
+            <com.fivewheeler.training.newscomparator.views.MultiSelectionSpinner
+                android:id="@+id/educationNewsFeedSelector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sports"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:background="#b7333591"
+                android:padding="10dp"/>
+
+            <com.fivewheeler.training.newscomparator.views.MultiSelectionSpinner
+                android:id="@+id/sportsNewsFeedSelector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Business"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:background="#b7333591"
+                android:padding="10dp"/>
+
+            <com.fivewheeler.training.newscomparator.views.MultiSelectionSpinner
+                android:id="@+id/businesssNewsFeedSelector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Technology"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:background="#b7333591"
+                android:padding="10dp"/>
+
+            <com.fivewheeler.training.newscomparator.views.MultiSelectionSpinner
+                android:id="@+id/technologyNewsFeedSelector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Health"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:background="#b7333591"
+                android:padding="10dp"/>
+
+            <com.fivewheeler.training.newscomparator.views.MultiSelectionSpinner
+                android:id="@+id/healthNewsFeedSelector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"/>
+
+            <Button
+                android:id="@+id/continueButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Continue"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

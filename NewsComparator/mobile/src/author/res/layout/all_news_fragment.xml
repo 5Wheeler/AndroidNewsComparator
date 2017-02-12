@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/allNewsList"
+    android:name="com.fivewheeler.training.newscomparator.fragments.InternationalNewsFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:orientation="vertical">
+
+    <fragment
+        android:name="com.fivewheeler.training.newscomparator.fragments.InternationalNewsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <fragment
+        android:name="com.fivewheeler.training.newscomparator.fragments.NationalNewsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <fragment
+        android:name="com.fivewheeler.training.newscomparator.fragments.BusinessNewsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <fragment
+        android:name="com.fivewheeler.training.newscomparator.fragments.EducationNewsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <fragment
+        android:name="com.fivewheeler.training.newscomparator.fragments.HealthNewsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <fragment
+        android:name="com.fivewheeler.training.newscomparator.fragments.TechnologyNewsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <fragment
+        android:name="com.fivewheeler.training.newscomparator.fragments.SportsNewsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+
+</LinearLayout>

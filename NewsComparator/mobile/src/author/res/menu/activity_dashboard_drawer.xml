@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home" />
+
+    <item android:title="Categories">
+        <menu>
+            <item
+                android:id="@+id/nav_international"
+                android:title="International" />
+            <item
+                android:id="@+id/nav_national"
+                android:title="National" />
+            <item
+                android:id="@+id/nav_technology"
+                android:title="Technology" />
+            <item
+                android:id="@+id/nav_business"
+                android:title="Business" />
+            <item
+                android:id="@+id/nav_sports"
+                android:title="Sports" />
+            <item
+                android:id="@+id/nav_education"
+                android:title="Education" />
+            <item
+                android:id="@+id/nav_health"
+                android:title="Health" />
+        </menu>
+    </item>
+
+</menu>

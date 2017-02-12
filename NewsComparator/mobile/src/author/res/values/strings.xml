@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NewsComparator</string>
+    <string name="title_activity_dashboard">News Comparator</string>
+    <string name="title_activity_feed_selector">Select the news feeds</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_news_list">NewsListActivity</string>
+</resources>
